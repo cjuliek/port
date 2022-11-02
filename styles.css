@@ -8,6 +8,7 @@ body {
     flex-direction: column;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
     color: white;
     margin: 0 0 20px;
@@ -23,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
 }
 .container.right {
-    text-align: center;
+    text-align: right;
     align-self: right;
     flex-direction: column;
 }
@@ -36,5 +37,5 @@ a {
 img {
     width: 250px;
     height: 320px;
-    display: inline-flex;
+    display: inline-block;
 }
