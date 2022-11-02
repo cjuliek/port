@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gloria+Hallelujah&family=Kalam:wght@300&display=swap');
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+font-family: 'Kalam', cursive; */
+
 body {
     background-color: #556b2f;
     padding: 50px;
@@ -6,27 +11,53 @@ body {
     font-weight: 400;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
+header {
+    vertical-align: left;
+    display: flex;
+}
 
 h1, h2, h3, h4, h5, h6 {
     color: white;
     margin: 0 0 20px;
-    font: 24px; 
+    font-size: 36px; 
+    font-family: 'Dancing Script', cursive;
 }
 .container {
-   display: flex;
+    position: relative;
+   width: 100%;
+   max-width: 1000px;
+   min-height: 1000px;
    align-items: stretch;
+   font-family: 'Kalam';
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   margin: 50px;
 
 }
 .container.left {
+    position: relative;
+    padding: 40px;
     text-align: left;
+}
+.brand_statement {
+    position: relative;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px
+    border-bottom: 2px solid white;
+}
+.container.center {
+    position: relative;
+    padding: 40px;
+    text-align: center;
 }
 .container.right {
-    text-align: right;
-    align-self: right;
-    flex-direction: column;
+    position: relative;
+    padding: 40px;
+    text-align: center;
 }
 
 a {
@@ -34,8 +65,19 @@ a {
     style: none;
 
 }
+p {
+    text-align: center;
+
+}
 img {
     width: 250px;
     height: 320px;
     display: inline-block;
+    float: left;
+    margin: 5px; 
+}
+section {
+    text-align: left;
+    flex-flow: column;
+    vertical-align: left;
 }
