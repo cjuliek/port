@@ -13,6 +13,28 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 20px;
     font: 24px; 
 }
-.left_column {
+.container {
+   display: flex;
+   align-items: stretch;
+
+}
+.container.left {
+    text-align: left;
     flex-direction: column;
+}
+.container.right {
+    text-align: center;
+    align-self: right;
+    flex-direction: column;
+}
+
+a {
+    color: white;
+    style: none;
+
+}
+img {
+    width: 250px;
+    height: 320px;
+    display: inline-flex;
 }
