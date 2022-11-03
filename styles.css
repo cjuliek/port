@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Lato';
 }
 header {
     display: flex;
@@ -29,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 .container {
     position: relative;
    width: 100%;
-   max-width: 1000px;
+   max-width: 1200px;
    min-height: 1000px;
    background: #50463e;
    font-family: 'Lato';
@@ -37,6 +38,9 @@ h1, h2, h3, h4, h5, h6 {
    padding: 10px;
    margin: 50px;
    border-radius: 10px;
+}
+.column {
+    max-width: 33.33%;
 }
 .left{
     background-color: #1a090d;
@@ -56,17 +60,19 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .slider{
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     display: flex;
     overflow-x:auto;
+    scrollbar-width: none;
     -webkit-overflow-scrolling: touch;
+    /* justify-content: center; */
 }
 .slide {
-    width: 325px;
+    width: 350px;
     flex-shrink:0;
     height:350px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .right {
     background: #1a090d;
@@ -75,7 +81,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 15px;
     justify-content: center;    
     color: #c4f1be;
-
 }
 .brand_statement {
     position: relative;
@@ -134,7 +139,7 @@ ul {
     background-color: #111;
 }
 
-@media (max-width: 400px) and (orientation: portrait) {
+@media (min-width: 300px) and (orientation: portrait) {
     body {
         display: inline-block;
         justify-content: center;
@@ -157,5 +162,8 @@ ul {
     }
     .nav_bar {
         float: none;
+    }
+    .slider {
+        max-width: 30%;
     }
 }
