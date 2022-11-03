@@ -31,34 +31,41 @@ h1, h2, h3, h4, h5, h6 {
    width: 100%;
    max-width: 1000px;
    min-height: 1000px;
-   background: #837265;
+   background: #50463e;
    align-items: stretch;
    font-family: 'Kalam';
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: 1fr;
+   display: flex;
    padding: 10px;
    margin: 50px;
    border-radius: 10px;
 }
-.column.left {
-    background: #738678;
-    width:33.33%;
+.left{
+    background-color: #738678;
+    max-height: 950px;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: left;
 }
-.column.center {
-    background: #738678;
-    width:33.33%;
+.center {
+    background: #8d7a6c;
+    max-height: 950px;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+
 }
-.column.right {
+.right {
     background: #738678;
-    width:33.33%;
+    max-height: 950px;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: left;
 }
 .brand_statement {
     position: relative;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
-    border-bottom: 2px solid gray;
 }
 
 a {
