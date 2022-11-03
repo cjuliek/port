@@ -97,10 +97,11 @@ h1, h2, h3, h4, h5, h6 {
 .right a {
     color:#c4f1be;
 }
-p {
-    /* text-align: center; */
+
+p {    
     font-size: 14px;
 }
+
 img {
     width: 250px;
     height: 320px;
