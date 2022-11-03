@@ -16,6 +16,7 @@ header {
     text-align: center;
     font-size: 48px;
     font-family: 'Lato';
+    color: white;
 
 }
 
@@ -23,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 20px;
     font-size: 36px; 
     font-family: 'Lato';
+    text-align: center;
 }
 .container {
     position: relative;
@@ -30,7 +32,6 @@ h1, h2, h3, h4, h5, h6 {
    max-width: 1000px;
    min-height: 1000px;
    background: #50463e;
-   align-items: stretch;
    font-family: 'Lato';
    display: flex;
    padding: 10px;
@@ -54,12 +55,25 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #edb183;
 
 }
+.slider{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    overflow-x:auto;
+    -webkit-overflow-scrolling: touch;
+}
+.slide {
+    width: 325px;
+    flex-shrink:0;
+    height:350px;
+    justify-content: center;
+}
 .right {
     background: #1a090d;
     max-height: 950px;
     border-radius: 10px;
     margin: 15px;
-    text-align: center;
+    justify-content: center;    
     color: #c4f1be;
 
 }
@@ -79,7 +93,7 @@ h1, h2, h3, h4, h5, h6 {
     color:#c4f1be;
 }
 p {
-    text-align: center;
+    /* text-align: center; */
     font-size: 14px;
 }
 img {
@@ -99,15 +113,20 @@ ul {
         display: inline-block;
         justify-content: center;
         align-items: center;
+        max-width: 400px;
     }
     .container {
         text-align: center;
         display: grid;
        grid-template-columns: 1fr;
        grid-gap: 10px;
+       max-width: 375px;
+       justify-items: center;
     }
     .column {
         margin: 10px;
         border: #646536;
+        max-width: 350px;
+        text-align: center;
     }
 }
