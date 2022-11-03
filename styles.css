@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gloria+Hallelujah&family=Kalam:wght@300&display=swap');
-/* font-family: 'Dancing Script', cursive;
-font-family: 'Gloria Hallelujah', cursive;
-font-family: 'Kalam', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
+/* font-family: 'Lato', sans-serif; */
 
 body {
-    background-color: #556b2f;
+    background-color: #646536;
     padding: 50px;
     font: 14px/1.5px;
-    color: #bac4bb;
     font-weight: 400;
     display: flex;
     flex-direction: column;
@@ -16,15 +13,16 @@ body {
 }
 header {
     display: flex;
+    text-align: center;
     font-size: 48px;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Lato';
+
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #4d5d53;
     margin: 0 0 20px;
     font-size: 36px; 
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Lato';
 }
 .container {
     position: relative;
@@ -33,48 +31,55 @@ h1, h2, h3, h4, h5, h6 {
    min-height: 1000px;
    background: #50463e;
    align-items: stretch;
-   font-family: 'Kalam';
+   font-family: 'Lato';
    display: flex;
    padding: 10px;
    margin: 50px;
    border-radius: 10px;
 }
 .left{
-    background-color: #738678;
-    max-height: 950px;
-    border-radius: 10px;
-    margin: 15px;
-    text-align: left;
-}
-.center {
-    background: #8d7a6c;
+    background-color: #1a090d;
     max-height: 950px;
     border-radius: 10px;
     margin: 15px;
     text-align: center;
-
+    color: #c4f1be;
 }
-.right {
-    background: #738678;
+.center {
     max-height: 950px;
     border-radius: 10px;
     margin: 15px;
-    text-align: left;
+    text-align: center;
+    color: #1a090d;
+    background-color: #edb183;
+
+}
+.right {
+    background: #1a090d;
+    max-height: 950px;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+    color: #c4f1be;
+
 }
 .brand_statement {
     position: relative;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
+    color:#c4f1be;
 }
 
-a {
-    color: #4d5d53;
+.center a {
+    color: #1a090d;
 
+}
+.right a {
+    color:#c4f1be;
 }
 p {
     text-align: center;
-    color: #bac4bb;
     font-size: 14px;
 }
 img {
@@ -87,4 +92,22 @@ img {
 
 ul {
     list-style-type: none;
+}
+
+@media (max-width: 400px) and (orientation: portrait) {
+    body {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+    }
+    .container {
+        text-align: center;
+        display: grid;
+       grid-template-columns: 1fr;
+       grid-gap: 10px;
+    }
+    .column {
+        margin: 10px;
+        border: #646536;
+    }
 }
