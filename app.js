@@ -1,5 +1,17 @@
-const night_btn = document.getElementById('night_btn');
+const modal = document.querySelector(".modal");
+const trigger = document.querySelector(".trigger");
+const closeButton = document.querySelector(".close-button");
 
-night_btn.addEventListener('click', function onClick() {
-    document.body.style.backgroundColor = 'black';
-    document.body.style.color = invertColor;} );
+function toggleModal() {
+    modal.classList.toggle("show-modal");
+}
+
+function windowOnClick(event) {
+    if (event.target === modal) {
+        toggleModal();
+    }
+}
+
+trigger.addEventListener("click", toggleModal);
+closeButton.addEventListener("click", toggleModal);
+window.addEventListener("click", windowOnClick);
