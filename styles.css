@@ -33,8 +33,9 @@ h1, h2, h3, h4, h5, h6 {
 .container {
     position: relative;
    width: 100%;
-   max-width: 1200px;
-   min-height: 1000px;
+   height: 100%;
+   max-width: 1500px;
+   min-height: 1500px;
    background: #50463e;
    font-family: 'Lato';
    display: flex;
@@ -47,12 +48,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 .left{
     background-color: #1a090d;
-    max-height: 950px;
+    min-height: 950px;
     border-radius: 10px;
     margin: 15px;
     text-align: center;
     color: #c4f1be;
 }
+.hover_container {
+    display: inline-block;
+}
+.manImg {
+    display: none;
+}
+.hover-text:hover ~ .manImg {
+    display: block;
+}
+
 .center {
     max-height: 950px;
     border-radius: 10px;
@@ -77,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .right {
     background: #1a090d;
-    max-height: 950px;
+    min-height: 950px;
     border-radius: 10px;
     margin: 15px;
     justify-content: center;    
