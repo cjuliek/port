@@ -67,6 +67,30 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #c4f1be;
 }
+.modal {
+background-color: #333;
+background-size: fill;
+color: white;
+z-index: 1;
+
+top: 25%;
+position: absolute;
+display: none;
+/* vertical-align: center; */
+vertical-align: middle;
+/* transform: translate(50%, 25%); */
+}
+.modal-content{
+    visibility: visible;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    top: 25%;
+    /* vertical-align: center;
+    z-index: 1; */
+}
+
+
 .hover_container {
     display: inline-block;
 }

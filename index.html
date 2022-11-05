@@ -15,6 +15,13 @@
     .slideshow {display: block;}
 </style>
 <body>
+    <div class="modal" id="project_modal">
+        <div class="modal-content">
+            <!-- #1 Modal should float in center of screen -->
+            <span class="close-button" id="close_project">×</span>
+            <h1 id="project_prompt">Not Ready Yet! Come Back Another Time!</h1>
+        </div>
+    </div> 
     <header> Julie Cao </header> 
 
      <div class = "nav_bar">   
@@ -35,14 +42,7 @@
                             I'm a junior software engineer with a background in mentorship. I found a passion in the development of my cohort as I collaborate and learn alongside them myself. I am a firm advocate of "Life is your teacher" and believe all experiences tie into one another. 
                         </p>
                     </div>
-                    <button class="trigger">Projects</button>
-                    <div class="modal">
-                        <div class="modal-content">
-                            <!-- #1 Modal should float -->
-                            <span class="close-button">×</span>
-                            <h1>Not Ready Yet! Come Back Another Time!</h1>
-                        </div>
-                    </div> 
+                    <button class="button" id="project_trigger">Projects</button>
                     <div class ="hiddenSmile">
                             <span class="hover_container">
                                 <p class="hover_text"> Smile</p>
@@ -110,7 +110,6 @@
 
         </div>
     </div>
-   
-    <link rel="javascript" href="app.js">
+    <script src="app.js"></script> 
 </body>
 </html>
