@@ -13,4 +13,5 @@ Stretch Goals
 -Create an alternate welcome page where user selects to see everything in a 'day' or 'night' mode
 -usable 'contact' function
 
-
+Unsolved Problems
+Did not get to stretch goal of a 'day' / 'night' mode for page. 
