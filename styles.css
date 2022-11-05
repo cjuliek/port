@@ -67,18 +67,21 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #c4f1be;
 }
+.img {
+    width: 10%;
+    height: 15%; 
+    border-radius: 5px;
+    
+}
 .modal {
 background-color: #333;
 background-size: fill;
 color: white;
 z-index: 1;
-
 top: 25%;
-position: absolute;
+position: fixed;
 display: none;
-/* vertical-align: center; */
 vertical-align: middle;
-/* transform: translate(50%, 25%); */
 }
 .modal-content{
     visibility: visible;
@@ -86,19 +89,6 @@ vertical-align: middle;
     position: relative;
     margin: 0 auto;
     top: 25%;
-    /* vertical-align: center;
-    z-index: 1; */
-}
-
-
-.hover_container {
-    display: inline-block;
-}
-.manImg {
-    display: none;
-}
-.hover-text:hover ~ .manImg {
-    display: block;
 }
 
 .center {

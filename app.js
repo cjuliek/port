@@ -1,20 +1,21 @@
-// Project Page button - Open + Close modal
-
+// -- open + close modal of 'project' -- //
 document.getElementById("project_trigger").addEventListener("click", display);
 function display() {
-// find function of project prompt
-// display screen centered 'project prompt'
   document.getElementById("project_modal").style.display = "block";
 }
 
 document.getElementById("close_project").addEventListener("click", close);
-// be able to close out 'project prompt'
 function close() {
   document.getElementById("project_modal").style.display="none";
 }
 
-// Display Img on Hover Over Text
-document.getElementById("smile_display")addEventListener("hover", reveal);
+// -- display img on click of 'smile' -- //
+document.getElementById("smile_trigger").addEventListener("click", reveal);
 function reveal() {
-    document.getElementById("latte").style.display="block"
-}
+    document.getElementById("latte").style.display="block"}
+
+const pets =[
+        {src:"/Users/jules/GA/Portfolio_JC/images/pets/IMG_4354.jpeg",},
+        {src:"/Users/jules/GA/Portfolio_JC/images/pets/IMG_4440.jpeg"},
+        {src:"/Users/jules/GA/Portfolio_JC/images/pets/IMG_6906.jpeg"}
+    ]
