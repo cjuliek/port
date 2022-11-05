@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&display=swap');
 /* font-family: 'Lato', sans-serif; */
 
+.nav_bar {  
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
 body {
     background-color: #646536;
     padding: 50px;
@@ -11,6 +23,7 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Lato';
+    margin-bottom: 30px;
 }
 header {
     display: flex;
@@ -126,18 +139,6 @@ img {
 ul {
     list-style-type: none;
 }
-.nav_bar {  
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    text-align: left;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
   .night_btn {
     display: flex;
     justify-content: right; 
