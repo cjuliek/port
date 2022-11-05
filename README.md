@@ -15,3 +15,4 @@ Stretch Goals
 
 Unsolved Problems
 Did not get to stretch goal of a 'day' / 'night' mode for page. 
+Instead of creating a separate page as a method of contact, I was able to enable direct email contact through clicking on 'email' under 'Contact' on my index page. When clicking it, the user will be prompted to email through user's OS automatic setting.
