@@ -12,3 +12,9 @@ document.getElementById("close_project").addEventListener("click", close);
 function close() {
   document.getElementById("project_modal").style.display="none";
 }
+
+// Display Img on Hover Over Text
+document.getElementById("smile_display")addEventListener("hover", reveal);
+function reveal() {
+    document.getElementById("latte").style.display="block"
+}
