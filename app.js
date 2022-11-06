@@ -14,8 +14,22 @@ document.getElementById("smile_trigger").addEventListener("click", reveal);
 function reveal() {
     document.getElementById("latte").style.display="block"}
 
-const pets =[
-        {src:"/Users/jules/GA/Portfolio_JC/images/pets/IMG_4354.jpeg",},
-        {src:"/Users/jules/GA/Portfolio_JC/images/pets/IMG_4440.jpeg"},
-        {src:"/Users/jules/GA/Portfolio_JC/images/pets/IMG_6906.jpeg"}
-    ]
+pets_array =[
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4354.jpeg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4440.jpeg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4519.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4521 2.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4522 2.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4523 2.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4524 2.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4525 2.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4526 2.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4527 2.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4528 2.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4529 2.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4530 2.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4531 2.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_4532 2.jpg',
+   '/Users/jules/GA/Portfolio_JC/images/pets/IMG_6906.jpeg',
+]
+function
