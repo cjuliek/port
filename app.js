@@ -25,7 +25,7 @@ pets_array =[
     src="./images/pets/IMG_4529 2.jpg",
     src="./images/pets/IMG_4530 2.jpg",
     src="./images/pets/IMG_4531 2.jpg",
-    src="/images/pets/IMG_4532 2.jpg",
+    src="./images/pets/IMG_4532 2.jpg",
     src="./images/pets/IMG_6906.jpeg",
 ]
 function randomImage() {
