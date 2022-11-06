@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #c4f1be;
 }
 .hiddenSmile {
-    position: center;
+    position: relative;
 }
 .img {
     width: 50%;
@@ -156,13 +156,12 @@ img {
 ul {
     list-style-type: none;
 }
-  .night_btn {
+.night_btn {
     display: flex;
     justify-content: right; 
-  }
+}
 .nav_li {
     float: left;
-    
 }
 .nav_li a {
     display: block;
@@ -174,12 +173,17 @@ ul {
 .nav_li a:hover{
     background-color: #111;
 }
-@media (min-width: 300px) and (orientation: portrait) {
+.navTop {
+    position: fixed;
+    z-index: 2;
+}
+@media (min-width: 200px) and (orientation: portrait) {
     body {
         display: inline-block;
         justify-content: center;
         align-items: center;
         max-width: 400px;
+        flex-direction: column;
     }
     .container {
         text-align: center;
@@ -196,7 +200,8 @@ ul {
         text-align: center;
     }
     .nav_bar {
-        float: none;
+        position: fixed;
+        z-index: 1;
     }
     .slider {
         max-width:50%;
