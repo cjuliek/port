@@ -67,11 +67,14 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     color: #c4f1be;
 }
+.hiddenSmile {
+    position: center;
+}
 .img {
-    width: 10%;
-    height: 15%; 
+    width: 50%;
+    height: 50%; 
     border-radius: 5px;
-    
+
 }
 .modal {
 background-color: #333;

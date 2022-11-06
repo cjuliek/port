@@ -9,7 +9,7 @@ function close() {
   document.getElementById("project_modal").style.display="none";
 }
 
-// -- Smile = reveal random img of pets -- // 
+// -- smile = reveal random img from pets folder -- // 
 pets_array =[
     src="./images/pets/IMG_4354.jpeg",
     src="./images/pets/IMG_4440.jpeg",
