@@ -51,7 +51,8 @@ h1, h2, h3, h4, h5, h6 {
    min-height: 1500px;
    background: #50463e;
    font-family: 'Lato';
-   display: flex;
+    font-weight: bold;
+    display: flex;
    padding: 10px;
    margin: 50px;
    border-radius: 10px;
@@ -184,6 +185,7 @@ ul {
         align-items: center;
         max-width: 400px;
         flex-direction: column;
+      
     }
     .container {
         text-align: center;
@@ -191,19 +193,26 @@ ul {
        grid-template-columns: 1fr;
        grid-gap: 10px;
        max-width: 375px;
-       justify-items: center;
+       justify-items: left;
+        /* position: fixed; */
+        top: 50%;
+        left: 50%;
     }
     .column {
         margin: 10px;
         border: #646536;
         max-width: 350px;
         text-align: center;
+        justify-content: left;
     }
     .nav_bar {
         position: fixed;
         z-index: 1;
-    }
+        }
+        .nav_li {
+            float: center;
+        }
     .slider {
-        max-width:50%;
+        max-width:100%;
     }
 }
