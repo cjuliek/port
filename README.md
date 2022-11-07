@@ -6,12 +6,10 @@ WireFrames
 
 ![Contact_Page](https://user-images.githubusercontent.com/115204404/200371889-59d940f7-0ff3-4444-b0b6-d0bb0589ff2b.png)
 
-![Screen Shot 2022-11-03 at 1 36 40 PM](https://user-images.githubusercontent.com/115204404/200398056-2f14e6b4-9a82-4529-a203-07ce96a8e4ba.png)
-![Screen Shot 2022-11-03 at 9 21 49 AM](https://user-images.githubusercontent.com/115204404/200398061-3460d186-a763-4e92-bd75-c7e3e7bd3722.png)
-![Screen Shot 2022-11-03 at 9 17 42 AM](https://user-images.githubusercontent.com/115204404/200398066-d6b989b5-a52c-42f1-9396-8a14cc8e5b9b.png)
 ![Screen Shot 2022-11-03 at 9 02 18 AM](https://user-images.githubusercontent.com/115204404/200398068-f83a1b3d-eecf-426d-ba94-0ad4449b2aa0.png)
-
-
+![Screen Shot 2022-11-03 at 9 17 42 AM](https://user-images.githubusercontent.com/115204404/200398066-d6b989b5-a52c-42f1-9396-8a14cc8e5b9b.png)
+![Screen Shot 2022-11-03 at 9 21 49 AM](https://user-images.githubusercontent.com/115204404/200398061-3460d186-a763-4e92-bd75-c7e3e7bd3722.png)
+![Screen Shot 2022-11-03 at 1 36 40 PM](https://user-images.githubusercontent.com/115204404/200398056-2f14e6b4-9a82-4529-a203-07ce96a8e4ba.png)
 
 
 
