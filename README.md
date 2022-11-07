@@ -1,10 +1,10 @@
 # portfolio
 
+WireFrames
 
-[Welcome_Page](https://user-images.githubusercontent.com/115204404/200368442-60ac3b4d-4fff-474c-bb27-b3da2004cb49.png)
+![Welcome_Page](https://user-images.githubusercontent.com/115204404/200371872-532f5a61-c892-4eba-b875-6bd289d9fe6e.png)
 
-[Contact_Page](https://user-images.githubusercontent.com/115204404/200368457-7822189a-46c9-4173-8120-313cd1d2d800.png)
-
+![Contact_Page](https://user-images.githubusercontent.com/115204404/200371889-59d940f7-0ff3-4444-b0b6-d0bb0589ff2b.png)
 
 
 User Stories!
@@ -23,3 +23,15 @@ Stretch Goals
 Unsolved Problems
 Did not get to stretch goal of a 'day' / 'night' mode for page. 
 Instead of creating a separate page as a method of contact, I was able to enable direct email contact through clicking on 'email' under 'Contact' on my index page. When clicking it, the user will be prompted to email through user's OS automatic setting.
+
+List of Technology Used
+HTML5 | CSS | Javascript
+
+Installation
+User will need javascript for files to load properly.
+Github pages is used for deployment / active listing of site. 
+
+Resources Used
+https://stackoverflow.com
+https://fontawesome.com/v4/icons/
+https://fonts.google.com/
