@@ -1,6 +1,9 @@
 # portfolio
+
+
 [Welcome_Page](https://user-images.githubusercontent.com/115204404/200368442-60ac3b4d-4fff-474c-bb27-b3da2004cb49.png)
-![Contact_Page](https://user-images.githubusercontent.com/115204404/200368457-7822189a-46c9-4173-8120-313cd1d2d800.png)
+
+[Contact_Page](https://user-images.githubusercontent.com/115204404/200368457-7822189a-46c9-4173-8120-313cd1d2d800.png)
 
 
 
